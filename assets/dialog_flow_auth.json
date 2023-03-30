@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "localshopsbot-kuue",
+  "private_key_id": "15f8b111f37a573aaa41d97de9919f9685e33d1e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDf5UVLFimk+UWF\nUn97KHpVFnLt9+ginGmmS0BNabI6XSO2ikTA3KCfH0S7Husv5ZJ9tLlaNWgRQUWL\n3sSC1TcYw0EXBuFF7IXVEI8sl0MAxSE3i1LL7Jf+B8flRa6v0Xor28BoPXq9UiEj\nYLcZkjxZe4+avxYHPm2LY2Jq40SVJcYx8nEcx8VSDWAPIpJHZQKjlpk0YjQy6yPf\nTHR/8lXFY1yrPeKV92Cw+InEcRm0T4e2yU2Aon9Wq9kJYHpcus7BeSBrp/REMOSO\nXVBgc6CnO8OqTlQ8RuQMaxjHiP532p9yRWbftnEpwcNn2rM3tuwXwldpMfz1AUyt\n0cXEMz0pAgMBAAECgf8g6KOgNakNo6aJJB5s0Cj/rBz1mnm0abIs+1SRZsKSoINK\nSWOQFAe+nzkn4zpzMZDoIJLX1hBljobe6KhUvz1cz831TsSoQxWX5VbhQiJlEnX7\nDYQzS7BA/LfZ1LN39Hq3C1XK6XZ7vXXW9bfQUql5taCww2D8XrYWTibGud/66sVD\ny1ANE9evhjKic68UM4HqjkstjPSTTHgo4bioUHewTl4cMzh6crVxPFueo3OPPvk6\nNZxMCb6l3iMw8ANcKdC/cX5wmE/9bRrLis22/85kWxPc5SjexBfI3cXR7FRvMpxM\nuJPyebcqhfZtJFtyb4iXJM/C/1gdyj1Hc2I7U6UCgYEA/guMB6Cwgc0TNtzuo024\nc1lqYUZHfvtwoeOuhlyuknyfH59NOUQsFGzYm+dnjFl3gaSZQTs2tDafimoE00Hg\nOsQ+JYAxsJDpgHrduVG2b3fjAXMjVJm2NF7Pqh1XrrIk0rKESpYdqp+UQiaD/JzA\n+yzmsebSwcZm8f0OxLw1vrUCgYEA4Z5UvZ31PiQoFOg5tD4kn2orD61LvCuAomM0\numnu+mBiPPBztDcD3N1+mThbsx5nCMhHrSpjt0tWCnmuw56kPkxiIXaqfjznyXfh\nzjCvPSmKLiZT8fUrTPadhXaNrbRuBBdW4d9ohM8KmokNjSL/7En5WLD35Gz6HBwG\n7//zGSUCgYEAwtB2DK9kS9XIw0y/T8ndBc/u7TOoxi7pm6vu/Sh70ufwWp6d6Kln\nqC4kGcJlvNIq++cOg2B2PdKZm9pbYunkmww8oCNjd4RZG+acu213Gpn0Ift6f3j0\nqcp/M3QW9me0J0MwgcYGb/66AdRpaMGIl9VB//EDdAfCkBXASowOJvUCgYB3C6gC\n9Rm11DYh8fagmDmSs95Mw0+21e1lwZrM0aB7E+hB503lxTGQlH58MjSQanZLOAI5\n6Kf8yw93L4V7SnW3OW594bNMMK7MqyjGNwH/768tcqPQg2B5l5a+GTPgd9ek6Pu6\n6rqneOdLaw1vbwxCjTW4CoiCSs4djtxKPm7y0QKBgAduLANJLw+QpIPcRJlsFPM4\n2Z2rafWft//VObc04EIz9bPKnoMpFvQbi4N94FpDgyPiX3DO5626UOZESYmqFWmH\nexQIE1sVZf+bI997+vpoQsr5i4Nc3ZUBO2Xdvbh5MeCEbTp6hZl8K081lwsPLo1X\nBGPJcbA0pk401NkoB6VX\n-----END PRIVATE KEY-----\n",
+  "client_email": "nearletbot@localshopsbot-kuue.iam.gserviceaccount.com",
+  "client_id": "117840196085725723054",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nearletbot%40localshopsbot-kuue.iam.gserviceaccount.com"
+}
