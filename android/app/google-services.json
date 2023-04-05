@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "54961010759",
+    "project_id": "nearlet-8f99c",
+    "storage_bucket": "nearlet-8f99c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54961010759:android:1395e3a454065a8b445962",
+        "android_client_info": {
+          "package_name": "com.example.swiggy_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54961010759-03bbfkh7q4nfu298nth9qt8jsk993ste.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3MrI4CbzJRA5328STGHLZnk3kzrtybXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54961010759-03bbfkh7q4nfu298nth9qt8jsk993ste.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "54961010759-j7f6rrceh6f7fe5muearqhfhb9kjk6ca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instamartfinal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54961010759:android:812c8d21cf4cca9c445962",
+        "android_client_info": {
+          "package_name": "com.nearLet.instamartfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54961010759-03bbfkh7q4nfu298nth9qt8jsk993ste.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3MrI4CbzJRA5328STGHLZnk3kzrtybXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54961010759-03bbfkh7q4nfu298nth9qt8jsk993ste.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "54961010759-j7f6rrceh6f7fe5muearqhfhb9kjk6ca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instamartfinal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

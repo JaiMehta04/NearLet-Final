@@ -1,12 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:swiggy_ui/views/tab_desktop/tab_screen.dart';
 import 'package:swiggy_ui/splashScreen.dart';
-import 'shared/app_theme.dart';
-import 'views/tab_desktop/desktop_screen.dart';
-import 'views/mobile/mobile_screen.dart';
-import 'widgets/responsive.dart';
 
-void main() {
+import 'shared/app_theme.dart';
+
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -19,7 +19,9 @@ class MyApp extends StatelessWidget {
       title: 'NearLet',
       debugShowCheckedModeBanner: false,
       theme: appPrimaryTheme(),
-      home: SplashScreen(title: 'NearLet',),
+      home: SplashScreen(
+        title: 'NearLet',
+      ),
     );
   }
 }

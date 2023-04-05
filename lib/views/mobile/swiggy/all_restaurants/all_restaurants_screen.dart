@@ -11,7 +11,7 @@ import '../indian_food/indian_delight_screen.dart';
 import '../offers/offer_screen.dart';
 
 class AllRestaurantsScreen extends StatelessWidget {
-  final restaurantListOne = AllShop.getRestaurantListOne();
+  final restaurantListOne = AllShop.getShopListOne();
   final restaurantListTwo = AllShop.getRestaurantListTwo();
   final restaurantListThree = AllShop.getRestaurantListThree();
 

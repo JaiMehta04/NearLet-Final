@@ -57,14 +57,12 @@ class SwiggyScreen extends StatelessWidget {
                     const CustomDividerView(),
                     RestaurantVerticalListView(
                       title: 'Popular Shops',
-                      restaurants:
-                          SpotlightBestTopGrocery.getPopularAllShops(),
+                      restaurants: SpotlightBestTopGrocery.getPopularAllShops(),
                     ),
                     const CustomDividerView(),
                     RestaurantVerticalListView(
                       title: 'All Shops Nearby',
-                      restaurants:
-                          SpotlightBestTopGrocery.getPopularAllShops(),
+                      restaurants: SpotlightBestTopGrocery.getPopularAllShops(),
                       isAllRestaurantNearby: true,
                     ),
                     const SeeAllShopBtn(),

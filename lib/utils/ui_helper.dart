@@ -15,9 +15,13 @@ class UIHelper {
 
   static SizedBox verticalSpaceExtraSmall() =>
       verticalSpace(_verticalSpaceExtraSmall);
+
   static SizedBox verticalSpaceSmall() => verticalSpace(_verticalSpaceSmall);
+
   static SizedBox verticalSpaceMedium() => verticalSpace(_verticalSpaceMedium);
+
   static SizedBox verticalSpaceLarge() => verticalSpace(_verticalSpaceLarge);
+
   static SizedBox verticalSpaceExtraLarge() =>
       verticalSpace(_verticalSpaceExtraLarge);
 
@@ -25,12 +29,16 @@ class UIHelper {
 
   static SizedBox horizontalSpaceExtraSmall() =>
       horizontalSpace(_horizontalSpaceExtraSmall);
+
   static SizedBox horizontalSpaceSmall() =>
       horizontalSpace(_horizontalSpaceSmall);
+
   static SizedBox horizontalSpaceMedium() =>
       horizontalSpace(_horizontalSpaceMedium);
+
   static SizedBox horizontalSpaceLarge() =>
       horizontalSpace(_horizontalSpaceLarge);
+
   static SizedBox horizontalSpaceExtraLarge() =>
       horizontalSpace(_horizontalSpaceExtraLarge);
 

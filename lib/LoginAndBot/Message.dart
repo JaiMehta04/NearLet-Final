@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class MessagesScreen extends StatefulWidget {
   final List messages;
+
   const MessagesScreen({Key? key, required this.messages}) : super(key: key);
 
   @override
@@ -39,7 +40,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
                             : Colors.white70.withOpacity(0.8)),
                     constraints: BoxConstraints(maxWidth: w * 2 / 3),
                     child:
-                    Text(widget.messages[index]['message'].text.text[0])),
+                        Text(widget.messages[index]['message'].text.text[0])),
               ],
             ),
           );

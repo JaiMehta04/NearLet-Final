@@ -133,6 +133,7 @@ class _MeatOfferBannerView extends StatelessWidget {
     'assets/images/banner3.jpg',
     'assets/images/banner4.jpg',
   ];
+
   @override
   Widget build(BuildContext context) {
     return Container(

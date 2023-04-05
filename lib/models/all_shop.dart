@@ -48,7 +48,7 @@ class AllShop {
     ];
   }
 
-  static List<SpotlightBestTopGrocery> getRestaurantListOne() {
+  static List<SpotlightBestTopGrocery> getShopListOne() {
     return const [
       SpotlightBestTopGrocery(
         image: 'assets/images/food2.jpg',

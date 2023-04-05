@@ -18,12 +18,9 @@ class _HomeState extends State<Home> {
 
   @override
   void initState() {
-
     DialogFlowtter.fromFile().then((instance) => dialogFlowtter = instance);
     super.initState();
   }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -42,9 +39,9 @@ class _HomeState extends State<Home> {
                 children: [
                   Expanded(
                       child: TextField(
-                        controller: _controller,
-                        style: TextStyle(color: Colors.white),
-                      )),
+                    controller: _controller,
+                    style: TextStyle(color: Colors.white),
+                  )),
                   IconButton(
                       onPressed: () {
                         sendMessage(_controller.text);

@@ -81,6 +81,7 @@ class _MenuItem extends StatefulWidget {
 
 class __MenuItemState extends State<_MenuItem> {
   bool isHovered = false;
+
   bool get isTab => widget.isTab;
 
   @override

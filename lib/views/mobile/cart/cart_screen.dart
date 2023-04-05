@@ -137,8 +137,7 @@ class _OrderViewState extends State<_OrderView> {
               Icon(Icons.library_books, color: Colors.grey[700]),
               UIHelper.horizontalSpaceSmall(),
               const Expanded(
-                child: Text(
-                    'Any request? We will try our best to convey it'),
+                child: Text('Any request? We will try our best to convey it'),
               )
             ],
           ),
