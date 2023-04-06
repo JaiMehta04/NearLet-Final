@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
@@ -11,14 +12,17 @@ class ImageRecog extends StatefulWidget {
 }
 
 class _ImageRecogState extends State<ImageRecog> {
-  List<CameraDescription> cameras = [];
+  List<CameraDescription> cameras=[];
   CameraImage? imgCamera;
   late CameraController cameraController;
   bool isWorking = false;
   String result = "";
-
+  Future<Null> getCameras() async {
+    cameras = await availableCameras();
+  }
   initCamera() {
-    cameraController = CameraController(cameras[0], ResolutionPreset.high);
+    getCameras();
+    cameraController = new CameraController(cameras[0], ResolutionPreset.medium);
     cameraController.initialize().then((value) {
       if (!mounted) {
         return;

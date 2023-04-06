@@ -73,7 +73,7 @@ class GroceryListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final restaurants = SpotlightBestTopGrocery.getTopGroceryRestaurants();
+    final restaurants = SpotlightBestTopGrocery.getTopGroceryShops();
 
     final headerStyle = Theme.of(context)
         .textTheme

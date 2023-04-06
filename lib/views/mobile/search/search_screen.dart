@@ -16,7 +16,9 @@ class _SearchScreenState extends State<SearchScreen> {
       SpotlightBestTopGrocery.getPopularAllShops();
   List<SpotlightBestTopGrocery> products = [
     ...SpotlightBestTopGrocery.getPopularAllShops(),
-    ...SpotlightBestTopGrocery.getPopularAllShops()
+    ...SpotlightBestTopGrocery.getPopularAllShops(),
+    ...SpotlightBestTopGrocery.getTopGroceryShops()
+
   ];
 
   void updateList(String value) {

@@ -267,7 +267,7 @@ class SpotlightBestTopGrocery {
     ];
   }
 
-  static List<SpotlightBestTopGrocery> getTopGroceryRestaurants() {
+  static List<SpotlightBestTopGrocery> getTopGroceryShops() {
     return const [
       SpotlightBestTopGrocery(
         image: 'assets/images/food3.jpg',

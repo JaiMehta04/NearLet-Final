@@ -43,7 +43,7 @@ class _LoginState extends State<LoginPage> {
         print("No User Found for that Email");
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Colors.orangeAccent,
+            backgroundColor: Colors.purpleAccent,
             content: Text(
               "No User Found for that Email",
               style: TextStyle(fontSize: 18.0, color: Colors.black),
@@ -54,7 +54,7 @@ class _LoginState extends State<LoginPage> {
         print("Wrong Password Provided by User");
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Colors.orangeAccent,
+            backgroundColor: Colors.purpleAccent,
             content: Text(
               "Wrong Password Provided by User",
               style: TextStyle(fontSize: 18.0, color: Colors.black),
@@ -199,5 +199,6 @@ class _LoginState extends State<LoginPage> {
         ),
       ),
     );
+
   }
 }
