@@ -20,13 +20,13 @@ class OrderMenu {
         price: 140,
       ),
       OrderMenu(
-        image: 'assets/images/food2.jpg',
+        image: 'assets/images/food7.jpg',
         title: 'Books Corner',
         quantity: 1,
         price: 160,
       ),
       OrderMenu(
-        image: 'assets/images/food3.jpg',
+        image: 'assets/images/food8.jpg',
         title: 'Nadiad Stationary',
         quantity: 2,
         price: 230,
@@ -44,7 +44,7 @@ class OrderMenu {
         price: 10,
       ),
       OrderMenu(
-        image: 'assets/images/food8.jpg',
+        image: 'assets/images/food2.jpg',
         title: 'Thalappakatti',
         quantity: 1,
         price: 130,
