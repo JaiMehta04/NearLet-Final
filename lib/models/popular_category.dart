@@ -10,12 +10,8 @@ class PopularCategory {
   static List<PopularCategory> getPopularCategories() {
     return const [
       PopularCategory(
-        image: 'assets/icons/coffee.png',
-        name: 'Cold\nBeverages',
-      ),
-      PopularCategory(
-        image: 'assets/icons/natural-food.png',
-        name: 'Veggies only',
+        image: 'assets/icons/fruit.png',
+        name: 'Fruits',
       ),
       PopularCategory(
         image: 'assets/icons/only-on-swiggy.png',
@@ -30,11 +26,11 @@ class PopularCategory {
         name: 'Groceries',
       ),
       PopularCategory(
-        image: 'assets/icons/milkshake.png',
-        name: 'Milkshakes',
+        image: 'assets/icons/stationary.png',
+        name: 'Stationary',
       ),
       PopularCategory(
-        image: 'assets/icons/kawaii-sushi.png',
+        image: 'assets/icons/fruit_and_veggie.png',
         name: 'Fruits\n Veggies',
       ),
       PopularCategory(
@@ -42,24 +38,16 @@ class PopularCategory {
         name: 'Bread',
       ),
       PopularCategory(
-        image: 'assets/icons/only-on-swiggy.png',
-        name: 'Only on\nNearLet',
-      ),
-      PopularCategory(
-        image: 'assets/icons/food.png',
-        name: 'Grocery',
-      ),
-      PopularCategory(
-        image: 'assets/icons/natural-food.png',
-        name: 'Veggies only',
+        image: 'assets/icons/veggies.png',
+        name: 'Veggies',
       ),
       PopularCategory(
         image: 'assets/icons/coffee.png',
         name: 'Cold\nBeverages',
       ),
       PopularCategory(
-        image: 'assets/icons/kawaii-sushi.png',
-        name: 'Fruits\n Veggies',
+        image: 'assets/icons/pharmacy.png',
+        name: 'Pharmacy',
       ),
       PopularCategory(
         image: 'assets/icons/bread.png',
@@ -68,18 +56,6 @@ class PopularCategory {
       PopularCategory(
         image: 'assets/icons/food.png',
         name: 'Grocery',
-      ),
-      PopularCategory(
-        image: 'assets/icons/milkshake.png',
-        name: 'Milkshakes',
-      ),
-      PopularCategory(
-        image: 'assets/icons/coffee.png',
-        name: 'Cold\nBeverages',
-      ),
-      PopularCategory(
-        image: 'assets/icons/natural-food.png',
-        name: 'Veggies only',
       ),
     ];
   }
