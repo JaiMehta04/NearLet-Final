@@ -3,7 +3,8 @@ import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tflite/flutter_tflite.dart';
-
+import 'package:image_picker/image_picker.dart';
+import 'search_screen.dart';
 class ImageRecog extends StatefulWidget {
   const ImageRecog({Key? key}) : super(key: key);
 
@@ -17,6 +18,8 @@ class _ImageRecogState extends State<ImageRecog> {
   late CameraController cameraController;
   bool isWorking = false;
   String result = "";
+  File _image=File("jai.jpg");
+  final picker = ImagePicker();
   Future<Null> getCameras() async {
     cameras = await availableCameras();
   }
@@ -40,7 +43,17 @@ class _ImageRecogState extends State<ImageRecog> {
       });
     });
   }
+  Future getImage() async {
+    final pickedFile = await picker.getImage(source: ImageSource.gallery);
 
+    setState(() {
+      if (pickedFile != null) {
+        _image = File(pickedFile.path);
+      } else {
+        print('No image selected.');
+      }
+    });
+  }
   loadModel() async {
     await Tflite.loadModel(
       model: "assets/modelfruits.tflite",
@@ -162,6 +175,18 @@ class _ImageRecogState extends State<ImageRecog> {
                 ),
               ],
             ),
+          ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SearchScreen(
+                    result: result,
+                )),
+              );
+
+            },
+            child: Icon(Icons.camera),
           ),
         ),
       ),

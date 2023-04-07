@@ -38,8 +38,8 @@ class _SplashScreenState extends State<SplashScreen> {
       decoration: new BoxDecoration(
         gradient: new LinearGradient(
           colors: [
-            Theme.of(context).accentColor,
-            Theme.of(context).primaryColor
+            Colors.purple,
+            Colors.white
           ],
           begin: const FractionalOffset(0, 0),
           end: const FractionalOffset(1.0, 0.0),
@@ -52,8 +52,8 @@ class _SplashScreenState extends State<SplashScreen> {
         duration: Duration(milliseconds: 1200),
         child: Center(
           child: Container(
-            height: 180.0,
-            width: 180.0,
+            height: 150.0,
+            width: 150.0,
             child: Center(
               child: ClipOval(
                 child: Image.asset('assets/AppLogo.jpg'), //put your logo here

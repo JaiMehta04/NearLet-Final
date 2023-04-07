@@ -3,7 +3,11 @@ import 'package:swiggy_ui/models/spotlight_best_top_food.dart';
 import 'package:swiggy_ui/views/mobile/search/imagerecognition.dart';
 
 class SearchScreen extends StatefulWidget {
-  const SearchScreen({Key? key}) : super(key: key);
+   String result='';
+   TextEditingController searchController = TextEditingController();
+  SearchScreen({Key? key, required this.result}) : super(key: key) {
+    searchController.text = result;
+  }
 
   @override
   _SearchScreenState createState() => _SearchScreenState();
@@ -12,6 +16,7 @@ class SearchScreen extends StatefulWidget {
 class _SearchScreenState extends State<SearchScreen> {
   TabController? _tabController;
   TextEditingController? searchController;
+
   List<SpotlightBestTopGrocery> filteredproducts =
       SpotlightBestTopGrocery.getPopularAllShops();
   List<SpotlightBestTopGrocery> products = [
@@ -46,6 +51,7 @@ class _SearchScreenState extends State<SearchScreen> {
     return Scaffold(
       appBar: AppBar(
         title: TextField(
+
           controller: searchController,
           decoration: InputDecoration(
             hintText: 'Search for shops',

@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('NearLetBot'),
+        title: Text('NearLetBot',selectionColor: Colors.purpleAccent),
       ),
       body: Container(
         child: Column(

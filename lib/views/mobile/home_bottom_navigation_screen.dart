@@ -19,7 +19,7 @@ class _HomeBottomNavigationScreenState
     extends State<HomeBottomNavigationScreen> {
   final List<Widget> _children = [
     const SwiggyScreen(),
-    const SearchScreen(),
+    SearchScreen(result: ''),
     const CartScreen(),
     AccountScreen(),
     Home(),

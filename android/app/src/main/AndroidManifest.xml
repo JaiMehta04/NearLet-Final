@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="${applicationName}"
-        android:label="swiggy_ui"
+        android:label="NearLet"
         android:icon="@mipmap/ic_launcher"
         android:exported="true">
 
