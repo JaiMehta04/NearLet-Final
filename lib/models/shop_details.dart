@@ -16,36 +16,34 @@ class ShopDetail {
       ShopDetail(
         title: 'Pen(2Pcs)',
         price: 'Rs4',
-        image: 'assets/images/food1.jpg',
+        image: 'assets/images/pens.png',
         desc:
-            'Good and long writing pens! Extra drak and smooth flow...',
+            'Good and long writing pens! Extra dark and smooth flow...',
       ),
       ShopDetail(
         title: 'Black Pens(2Pcs)',
-        image: 'assets/images/food2.jpg',
+        image: 'assets/images/black_pen.png',
         price: 'Rs10',
       ),
       ShopDetail(
-        title: 'Fruits',
-        image: 'assets/images/food3.jpg',
-        price: 'Rs85',
-        desc:
-            'Fresh fruits directly from farm at your doorstep in great prices..more',
+        title: 'Protractor',
+        image: 'assets/images/protractor.png',
+        price: 'Rs8',
       ),
       ShopDetail(
-        title: 'Fruit Bowl(1Set)',
-        image: 'assets/images/food4.jpg',
+        title: 'Geometry Box',
+        image: 'assets/images/geometry_box.png',
         price: 'Rs45',
       ),
       ShopDetail(
         title: 'Compass Box',
-        image: 'assets/images/food5.jpg',
-        price: 'Rs50',
+        image: 'assets/images/compass_box.png',
+        price: 'Rs60',
       ),
       ShopDetail(
         title: 'Mini School Kit',
-        image: 'assets/images/food6.jpg',
-        price: 'Rs125',
+        image: 'assets/images/mini_school_kit.png',
+        price: 'Rs525',
         desc:
             'A kit full of all school essentials..more',
       ),
