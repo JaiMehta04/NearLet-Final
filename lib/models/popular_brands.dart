@@ -23,25 +23,25 @@ class PopularBrands {
           image: 'assets/images/food1.jpg', name: 'Subway', minutes: '26 mins'),
       PopularBrands(
           image: 'assets/images/food2.jpg',
-          name: 'Chai Kings',
+          name: 'Kings Mall',
           minutes: '38 mins'),
       PopularBrands(
           image: 'assets/images/food3.jpg',
-          name: 'BBQ Nation',
+          name: 'Nation Stationary',
           minutes: '53 mins'),
       PopularBrands(
           image: 'assets/images/food4.jpg',
-          name: 'A2B Chennai',
+          name: 'A2B Nadiad Groceries',
           minutes: '22 mins'),
       PopularBrands(
           image: 'assets/images/food6.jpg', name: 'KFC', minutes: '13 mins'),
       PopularBrands(
           image: 'assets/images/food7.jpg',
-          name: 'Aasife Biryani',
+          name: 'Nadiad Stationary',
           minutes: '31 mins'),
       PopularBrands(
           image: 'assets/images/food8.jpg',
-          name: 'Chennai Biryani',
+          name: 'Vishnu Stationary',
           minutes: '44 mins'),
     ];
   }
