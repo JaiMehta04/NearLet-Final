@@ -38,17 +38,17 @@ class _OrderNowView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'Namma Veedu Vasanta Bhavan',
+                  'RPI Stationary',
                   style: Theme.of(context)
                       .textTheme
                       .subtitle2!
                       .copyWith(fontWeight: FontWeight.bold, fontSize: 16.0),
                 ),
                 UIHelper.verticalSpaceSmall(),
-                Text('Stationery',
+                Text('Stationary',
                     style: Theme.of(context).textTheme.bodyText1),
                 UIHelper.verticalSpaceExtraSmall(),
-                Text('Velachery Main Road, Madipakkam',
+                Text('Kisan Samosa Lane, Nadiad',
                     style: Theme.of(context).textTheme.bodyText1),
                 UIHelper.verticalSpaceMedium(),
                 const CustomDividerView(dividerHeight: 1.0),
@@ -57,7 +57,7 @@ class _OrderNowView extends StatelessWidget {
                   children: <Widget>[
                     _buildVerticalStack(context, '4.1', 'Packaging 80%'),
                     _buildVerticalStack(context, '29 mins', 'Delivery Time'),
-                    _buildVerticalStack(context, 'Rs150', 'For Two'),
+                    _buildVerticalStack(context, 'Rs150', 'For 1 Kit'),
                   ],
                 ),
                 const CustomDividerView(dividerHeight: 1.0),
@@ -91,7 +91,7 @@ class _OrderNowView extends StatelessWidget {
                         size: 12.0,
                       ),
                       UIHelper.horizontalSpaceExtraSmall(),
-                      Text('PURE VEG',
+                      Text('PURE AND GOOD ITEMS',
                           style: Theme.of(context)
                               .textTheme
                               .subtitle2!
@@ -127,7 +127,7 @@ class _OrderNowView extends StatelessWidget {
           ),
           const CustomDividerView(dividerHeight: 15.0),
           _FoodListView(
-            title: 'Kozhukattaiyum & Paniyarams',
+            title: 'Other Items',
             foods: ShopDetail.getOtherDishes(),
           )
         ],
@@ -215,7 +215,7 @@ class _RecommendedFoodView extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        'BREAKFAST',
+                        'ESSENTIALS',
                         style: Theme.of(context).textTheme.bodyText1!.copyWith(
                               fontSize: 10.0,
                               color: Colors.grey[700],
