@@ -15,11 +15,11 @@ class PopularCategory {
       ),
       PopularCategory(
         image: 'assets/icons/natural-food.png',
-        name: 'Veg only',
+        name: 'Veggies only',
       ),
       PopularCategory(
         image: 'assets/icons/only-on-swiggy.png',
-        name: 'Only on\nSwiggy',
+        name: 'Only on\nNearLet',
       ),
       PopularCategory(
         image: 'assets/icons/offer.png',
@@ -27,7 +27,7 @@ class PopularCategory {
       ),
       PopularCategory(
         image: 'assets/icons/food.png',
-        name: 'Meals',
+        name: 'Groceries',
       ),
       PopularCategory(
         image: 'assets/icons/milkshake.png',
@@ -35,7 +35,7 @@ class PopularCategory {
       ),
       PopularCategory(
         image: 'assets/icons/kawaii-sushi.png',
-        name: 'Kawaii\n Sushi',
+        name: 'Fruits\n Veggies',
       ),
       PopularCategory(
         image: 'assets/icons/bread.png',
@@ -47,11 +47,11 @@ class PopularCategory {
       ),
       PopularCategory(
         image: 'assets/icons/food.png',
-        name: 'Meals',
+        name: 'Grocery',
       ),
       PopularCategory(
         image: 'assets/icons/natural-food.png',
-        name: 'Veg only',
+        name: 'Veggies only',
       ),
       PopularCategory(
         image: 'assets/icons/coffee.png',
@@ -59,7 +59,7 @@ class PopularCategory {
       ),
       PopularCategory(
         image: 'assets/icons/kawaii-sushi.png',
-        name: 'Kawaii\n Sushi',
+        name: 'Fruits\n Veggies',
       ),
       PopularCategory(
         image: 'assets/icons/bread.png',
@@ -67,7 +67,7 @@ class PopularCategory {
       ),
       PopularCategory(
         image: 'assets/icons/food.png',
-        name: 'Meals',
+        name: 'Grocery',
       ),
       PopularCategory(
         image: 'assets/icons/milkshake.png',
@@ -79,7 +79,7 @@ class PopularCategory {
       ),
       PopularCategory(
         image: 'assets/icons/natural-food.png',
-        name: 'Veg only',
+        name: 'Veggies only',
       ),
     ];
   }
