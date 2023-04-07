@@ -15,31 +15,31 @@ class OrderMenu {
     return const [
       OrderMenu(
         image: 'assets/images/food1.jpg',
-        title: 'Breakfast Expresss',
+        title: 'Grocery Express',
         quantity: 3,
         price: 140,
       ),
       OrderMenu(
         image: 'assets/images/food2.jpg',
-        title: 'Pizza Corner',
+        title: 'Books Corner',
         quantity: 1,
         price: 160,
       ),
       OrderMenu(
         image: 'assets/images/food3.jpg',
-        title: 'BBQ King',
+        title: 'Nadiad Stationary',
         quantity: 2,
         price: 230,
       ),
       OrderMenu(
         image: 'assets/images/food4.jpg',
-        title: 'Sea Emperor',
+        title: 'Emperor Fruits',
         quantity: 6,
         price: 30,
       ),
       OrderMenu(
         image: 'assets/images/food5.jpg',
-        title: 'Chai Truck',
+        title: 'All in 1 Truck',
         quantity: 4,
         price: 10,
       ),
@@ -51,13 +51,13 @@ class OrderMenu {
       ),
       OrderMenu(
         image: 'assets/images/food9.jpg',
-        title: 'Eat & Meet',
+        title: 'Kanha Stationary',
         quantity: 6,
         price: 200,
       ),
       OrderMenu(
         image: 'assets/images/food6.jpg',
-        title: 'Anjapar Restaurant',
+        title: 'Anjapar Bookstore',
         quantity: 4,
         price: 190,
       ),
