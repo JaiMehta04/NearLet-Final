@@ -60,12 +60,12 @@ class _Body extends StatelessWidget {
             const FoodGroceriesAvailabilityView(),
             const CustomDividerView(),
             RestaurantVerticalListView(
-              title: 'Popular Restaurants',
+              title: 'Popular Shops',
               restaurants: SpotlightBestTopGrocery.getPopularAllShops(),
             ),
             const CustomDividerView(),
             RestaurantVerticalListView(
-              title: 'All Restaurants Nearby',
+              title: 'All Shops Nearby',
               restaurants: SpotlightBestTopGrocery.getPopularAllShops(),
               isAllRestaurantNearby: true,
             ),
@@ -102,7 +102,7 @@ class _Search extends StatelessWidget {
           UIHelper.horizontalSpaceMedium(),
           Expanded(
             child: Text(
-              'What would you like to eat?',
+              'What would you like to order?',
               style: Theme.of(context).textTheme.subtitle1!.copyWith(
                     color: Colors.grey[700],
                     fontWeight: FontWeight.bold,
