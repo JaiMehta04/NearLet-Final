@@ -27,7 +27,7 @@ class AllShop {
       ),
       AllShop(
         image: 'assets/icons/only-on-swiggy.png',
-        name: 'Only on\nSwiggy',
+        name: 'Only on\n/NearLet',
       ),
       AllShop(
         image: 'assets/icons/thunder.png',
@@ -52,31 +52,31 @@ class AllShop {
     return const [
       SpotlightBestTopGrocery(
         image: 'assets/images/food2.jpg',
-        name: 'Shiva Bhavan',
-        desc: 'South Indian',
-        coupon: '20 \$ off | Use SWIGGYIT',
-        ratingTimePrice: '4.1 35 mins - Rs 150 for two',
+        name: 'Shiva Grocery',
+        desc: 'Grocery',
+        coupon: '20 \$ off | Use NEARLETIT',
+        ratingTimePrice: '4.1 35 mins - Rs 150 for 2 Kg',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food4.jpg',
-        name: 'Biryani Expresss',
-        desc: 'North Indian',
+        name: 'Fruits And Grocery Express',
+        desc: 'Fruits',
         coupon: '20 \$ off | Use JUMBO',
-        ratingTimePrice: '3.8 15 mins - Rs 200 for two',
+        ratingTimePrice: '3.8 35 mins - Rs 200 for 2 Kg',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food7.jpg',
-        name: 'BBQ King',
-        desc: 'South Indian',
+        name: 'Nadiad Stationary',
+        desc: 'Stationary',
         coupon: '20 \$ off | Use JUMBO',
-        ratingTimePrice: '4.1 25 mins - Rs 120 for two',
+        ratingTimePrice: '4.1 25 mins - Rs 120 for 4 books',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food8.jpg',
-        name: 'Pizza Corner',
-        desc: 'South Indian',
+        name: 'Books Corner',
+        desc: 'Stationary',
         coupon: '30 \$ off | Use JUMBO',
-        ratingTimePrice: '4.3 47 mins - Rs 350 for two',
+        ratingTimePrice: '4.3 37 mins - Rs 250 for 2 kits',
       ),
     ];
   }
@@ -99,31 +99,31 @@ class AllShop {
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food2.jpg',
-        name: 'Murugan Idly',
-        desc: 'South Indian',
-        coupon: '20 \$ off | Use SWIGGYIT',
-        ratingTimePrice: '4.1 35 mins - Rs 150 for two',
+        name: 'Narayan Groceries',
+        desc: 'Grocery',
+        coupon: '20 \$ off | Use NEARLETIT',
+        ratingTimePrice: '4.1 35 mins - Rs 150 for 2 Kg',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food7.jpg',
-        name: 'BBQ King',
-        desc: 'South Indian',
+        name: 'Nadiad Stationary',
+        desc: 'Stationary',
         coupon: '20 \$ off | Use JUMBO',
-        ratingTimePrice: '4.1 25 mins - Rs 120 for two',
+        ratingTimePrice: '4.1 25 mins - Rs 120 for 4 books',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food8.jpg',
-        name: 'Pizza Corner',
-        desc: 'South Indian',
+        name: 'Books Corner',
+        desc: 'Stationary',
         coupon: '30 \$ off | Use JUMBO',
-        ratingTimePrice: '4.3 47 mins - Rs 350 for two',
+        ratingTimePrice: '4.3 37 mins - Rs 250 for 2 kits',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food6.jpg',
-        name: 'Adyar Hotel',
-        desc: 'South Indian',
+        name: 'Adyar Stationary',
+        desc: 'Stationary',
         coupon: '30 \$ off | Use JUMBO',
-        ratingTimePrice: '4.3 21 mins - Rs 150 for two',
+        ratingTimePrice: '4.3 21 mins - Rs 150 for 1 Kit',
       ),
     ];
   }
@@ -132,43 +132,43 @@ class AllShop {
     return const [
       SpotlightBestTopGrocery(
         image: 'assets/images/food4.jpg',
-        name: 'Biryani Expresss',
-        desc: 'North Indian',
+        name: 'Fruits And Grocery Express',
+        desc: 'Fruits',
         coupon: '20 \$ off | Use JUMBO',
-        ratingTimePrice: '3.8 15 mins - Rs 200 for two',
+        ratingTimePrice: '3.8 35 mins - Rs 200 for 2 Kg',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food8.jpg',
-        name: 'Pizza Corner',
-        desc: 'South Indian',
+        name: 'Books Corner',
+        desc: 'Stationary',
         coupon: '30 \$ off | Use JUMBO',
-        ratingTimePrice: '4.3 47 mins - Rs 350 for two',
+        ratingTimePrice: '4.3 37 mins - Rs 250 for 2 kits',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food2.jpg',
-        name: 'Murugan Idly',
-        desc: 'South Indian',
-        coupon: '20 \$ off | Use SWIGGYIT',
-        ratingTimePrice: '4.1 35 mins - Rs 150 for two',
+        name: 'Narayan Groceries',
+        desc: 'Grocery',
+        coupon: '20 \$ off | Use NEARLETIT',
+        ratingTimePrice: '4.1 35 mins - Rs 150 for 2 Kg',
       ),
       SpotlightBestTopGrocery(
         image: 'assets/images/food6.jpg',
-        name: 'Adyar Hotel',
-        desc: 'South Indian',
+        name: 'Adyar Stationary',
+        desc: 'Stationary',
         coupon: '30 \$ off | Use JUMBO',
-        ratingTimePrice: '4.3 21 mins - Rs 150 for two',
+        ratingTimePrice: '4.3 21 mins - Rs 150 for 1 Kit',
       ),
     ];
   }
 
   static List<IndianFood> getIndianRestaurants() {
     return const [
-      IndianFood(image: 'assets/images/food3.jpg', name: 'South\nIndian'),
-      IndianFood(image: 'assets/images/food5.jpg', name: 'Indian\nChai'),
-      IndianFood(image: 'assets/images/food1.jpg', name: 'North \nndian'),
-      IndianFood(image: 'assets/images/food8.jpg', name: 'Indian\nBiryani'),
-      IndianFood(image: 'assets/images/food9.jpg', name: 'Indian\nDosa'),
-      IndianFood(image: 'assets/images/food4.jpg', name: 'Indian\nIdly'),
+      IndianFood(image: 'assets/images/food3.jpg', name: 'Grocery'),
+      IndianFood(image: 'assets/images/food5.jpg', name: 'Fruits\nVeggies'),
+      IndianFood(image: 'assets/images/food1.jpg', name: 'Mall'),
+      IndianFood(image: 'assets/images/food8.jpg', name: 'Stationary'),
+      IndianFood(image: 'assets/images/food9.jpg', name: 'Bookstore'),
+      IndianFood(image: 'assets/images/food4.jpg', name: 'Fruits'),
     ];
   }
 
