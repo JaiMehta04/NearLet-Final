@@ -24,7 +24,7 @@ class SpotlightBestTopGrocery {
           ratingTimePrice: '4.1 30 mins - Rs 200 for 3 Kgs',
         ),
         SpotlightBestTopGrocery(
-          image: 'assets/images/food2.jpg',
+          image: 'assets/images/food6.jpg',
           name: 'RPI Stationary',
           desc: 'Stationary',
           coupon: '20 \$ off | Use NEARLETIT',
