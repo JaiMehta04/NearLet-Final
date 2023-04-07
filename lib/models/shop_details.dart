@@ -14,40 +14,40 @@ class ShopDetail {
   static List<ShopDetail> getBreakfast() {
     return const [
       ShopDetail(
-        title: 'Idly(2Pcs) (Breakfast)',
-        price: 'Rs48',
+        title: 'Pen(2Pcs)',
+        price: 'Rs4',
         image: 'assets/images/food1.jpg',
         desc:
-            'A healthy breakfast item and an authentic south indian delicacy! Steamed and fluffy rice cake..more',
+            'Good and long writing pens! Extra drak and smooth flow...',
       ),
       ShopDetail(
-        title: 'Sambar Idly (2Pcs)',
+        title: 'Black Pens(2Pcs)',
         image: 'assets/images/food2.jpg',
-        price: 'Rs70',
+        price: 'Rs10',
       ),
       ShopDetail(
-        title: 'Ghee Pongal',
+        title: 'Fruits',
         image: 'assets/images/food3.jpg',
         price: 'Rs85',
         desc:
-            'Cute, button idlis with authentic. South Indian sambar and coconut chutney gives the per..more',
+            'Fresh fruits directly from farm at your doorstep in great prices..more',
       ),
       ShopDetail(
-        title: 'Boori (1Set)',
+        title: 'Fruit Bowl(1Set)',
         image: 'assets/images/food4.jpg',
-        price: 'Rs85',
+        price: 'Rs45',
       ),
       ShopDetail(
-        title: 'Podi Idly(2Pcs)',
+        title: 'Compass Box',
         image: 'assets/images/food5.jpg',
-        price: 'Rs110',
+        price: 'Rs50',
       ),
       ShopDetail(
-        title: 'Mini Idly with Sambar',
+        title: 'Mini School Kit',
         image: 'assets/images/food6.jpg',
-        price: 'Rs85',
+        price: 'Rs125',
         desc:
-            'Cute, button idlis with authentic. South Indian sambar and coconut chutney gives the per..more',
+            'A kit full of all school essentials..more',
       ),
     ];
   }
@@ -55,32 +55,32 @@ class ShopDetail {
   static List<ShopDetail> getAllTimeFavFoods() {
     return const [
       ShopDetail(
-        title: 'Plain Dosa',
-        price: 'Rs30',
+        title: 'Notebook',
+        price: 'Rs20',
         desc:
-            'A healthy breakfast item and an authentic south indian delicacy!',
+            'A regular size notebook of 100 pages in best price!',
       ),
       ShopDetail(
-        title: 'Rava Dosa',
-        price: 'Rs70',
+        title: 'Compass Box',
+        price: 'Rs40',
       ),
       ShopDetail(
-        title: 'Onion Dosa',
-        price: 'Rs85',
+        title: 'Pack of 6 books',
+        price: 'Rs150',
         desc:
-            'Cute, button dosas with authentic. South Indian sambar and coconut chutney gives the per..more',
+            'A pack of 6 medium sized 100 pages notebooks at reasonable price',
       ),
       ShopDetail(
-        title: 'Onion Uttapam',
-        price: 'Rs85',
+        title: 'Writing Pad',
+        price: 'Rs55',
       ),
       ShopDetail(
-        title: 'Tomato Uttapam',
-        price: 'Rs110',
+        title: 'Transparent Pouch',
+        price: 'Rs40',
       ),
       ShopDetail(
-        title: 'Onion Dosa & Sambar Vadai',
-        price: 'Rs85',
+        title: 'Pencil Box',
+        price: 'Rs80',
       ),
     ];
   }
@@ -88,20 +88,20 @@ class ShopDetail {
   static List<ShopDetail> getOtherDishes() {
     return const [
       ShopDetail(
-        title: 'Kuzhi Paniyaram Karam (4Pcs)',
-        price: 'Rs70',
+        title: 'Erasers and Sharpners(2Pcs)',
+        price: 'Rs20',
       ),
       ShopDetail(
-        title: 'Kuzhi Paniyaram Sweet (4Pcs)',
-        price: 'Rs70',
+        title: 'Whitener',
+        price: 'Rs10',
       ),
       ShopDetail(
-        title: 'Kuzhi Paniyaram Sweet & Karam (4Pcs)',
-        price: 'Rs110',
+        title: 'Black Pen Box',
+        price: 'Rs50',
       ),
       ShopDetail(
-        title: 'Ghee Kuzhi Paniyaram',
-        price: 'Rs85',
+        title: 'Parker Pen',
+        price: 'Rs250',
       ),
     ];
   }
