@@ -25,7 +25,7 @@ class TopPicksFood {
           minutes: '26 mins'),
       TopPicksFood(
           image: 'assets/images/food2.jpg',
-          name: 'Ndiad Mall',
+          name: 'Nadiad Mall',
           minutes: '38 mins'),
       TopPicksFood(
           image: 'assets/images/food3.jpg',
